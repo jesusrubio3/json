@@ -1,0 +1,239 @@
+{
+  "coches": {
+    "coche": [
+      {
+        "marca": "Ford",
+        "modelo": "Fiesta",
+        "matricula": "1234CVS",
+        "anio": 2010,
+        "precio": 17210,
+        "duenio": {
+          "dni": "47382905C",
+          "nombre": "Juan",
+          "apellido": "Pérez"
+        },
+        "accesorios": {
+          "accesorio": [
+            {
+              "nombre": "Radio",
+              "tipo": "USB"
+            },
+            {
+              "nombre": "Climatizador",
+              "modelo": "3457T"
+            }
+          ]
+        }
+      },
+      {
+        "marca": "Ford",
+        "modelo": "Focus",
+        "matricula": "5678HSD",
+        "anio": 2009,
+        "precio": 20760,
+        "duenio": {
+          "dni": "59843721Z",
+          "nombre": "María",
+          "apellido": "García"
+        },
+        "accesorios": {
+          "accesorio": {
+            "nombre": "Radio",
+            "tipo": "CD"
+          }
+        }
+      },
+      {
+        "marca": "Seat",
+        "modelo": "Leon",
+        "matricula": "9875RWT",
+        "anio": 2002,
+        "precio": 15780,
+        "duenio": {
+          "dni": "34281473D",
+          "nombre": "Julio",
+          "apellido": "César"
+        },
+        "accesorios": {
+          "accesorio": [
+            {
+              "nombre": "Radio",
+              "tipo": "DVD"
+            },
+            {
+              "nombre": "Bluetooth"
+            }
+          ]
+        }
+      },
+      {
+        "marca": "BMW",
+        "modelo": "X5",
+        "matricula": "4532PLW",
+        "anio": 2016,
+        "precio": 43500,
+        "duenio": {
+          "dni": "23165823X",
+          "nombre": "Anibal",
+          "apellido": "Barca"
+        },
+        "accesorios": {
+          "accesorio": [
+            {
+              "nombre": "Radio",
+              "tipo": "USB"
+            },
+            {
+              "nombre": "Climatizador",
+              "modelo": "3457T"
+            }
+          ]
+        }
+      },
+      {
+        "marca": "Ferrari",
+        "modelo": 812,
+        "matricula": "6473PMN",
+        "anio": 2020,
+        "precio": 105780,
+        "duenio": {
+          "dni": "47389754F",
+          "nombre": "Publio",
+          "apellido": "Cornelio"
+        },
+        "accesorios": {
+          "accesorio": [
+            {
+              "nombre": "Radio",
+              "tipo": "USB"
+            },
+            {
+              "nombre": "Climatizador",
+              "modelo": "3457T"
+            }
+          ]
+        }
+      },
+      {
+        "marca": "Renault",
+        "modelo": "Captur",
+        "matricula": "547YJK",
+        "anio": 2020,
+        "precio": 10080,
+        "duenio": {
+          "dni": "49872121G",
+          "nombre": "Bobby",
+          "apellido": "Fischer"
+        },
+        "accesorios": {
+          "accesorio": [
+            {
+              "nombre": "Radio",
+              "tipo": "USB"
+            },
+            {
+              "nombre": "Climatizador",
+              "modelo": "3457T"
+            }
+          ]
+        }
+      },
+      {
+        "marca": "Kia",
+        "modelo": "Sportage",
+        "matricula": "3232CCC",
+        "anio": 2019,
+        "precio": 20500,
+        "duenio": {
+          "dni": "48903787H",
+          "nombre": "Rodrigo",
+          "apellido": "de Triana"
+        },
+        "accesorios": {
+          "accesorio": [
+            {
+              "nombre": "Radio",
+              "tipo": "USB"
+            },
+            {
+              "nombre": "Climatizador",
+              "modelo": "3457T"
+            }
+          ]
+        }
+      },
+      {
+        "marca": "Skoda",
+        "modelo": "Karoq",
+        "matricula": "6789LHF",
+        "anio": 2018,
+        "precio": 21000,
+        "duenio": {
+          "dni": "39875478P",
+          "nombre": "Judit",
+          "apellido": "Pólgar"
+        },
+        "accesorios": {
+          "accesorio": [
+            {
+              "nombre": "Radio",
+              "tipo": "USB"
+            },
+            {
+              "nombre": "Climatizador",
+              "modelo": "3457T"
+            }
+          ]
+        }
+      },
+      {
+        "marca": "Audi",
+        "modelo": "A4",
+        "matricula": "9876FXC",
+        "anio": 2016,
+        "precio": 50000,
+        "duenio": {
+          "dni": "32148769L",
+          "nombre": "Margaret",
+          "apellido": "Thatcher"
+        },
+        "accesorios": {
+          "accesorio": [
+            {
+              "nombre": "Radio",
+              "tipo": "USB"
+            },
+            {
+              "nombre": "Climatizador",
+              "modelo": "3457T"
+            }
+          ]
+        }
+      },
+      {
+        "marca": "Skoda",
+        "modelo": "Octavia",
+        "matricula": "3232LWD",
+        "anio": 2015,
+        "precio": 20000,
+        "duenio": {
+          "dni": "49824769W",
+          "nombre": "Frida",
+          "apellido": "Khalo"
+        },
+        "accesorios": {
+          "accesorio": [
+            {
+              "nombre": "Radio",
+              "tipo": "USB"
+            },
+            {
+              "nombre": "Climatizador",
+              "modelo": "3457T"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
