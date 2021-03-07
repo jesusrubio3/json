@@ -47,3 +47,14 @@ def accesorios(coche,fichero):
 
         
     return lista
+
+def propiedad(nombre,apellido,fichero):
+    lista=[]
+    x=fichero.get("coches").get("coche")
+
+    for i in x:
+        if nombre==i.get("duenio").get("nombre") and apellido==i.get("duenio").get("apellido"):
+            coche=i.get("matricula")
+            lista.append(coche)
+    
+    return lista

@@ -37,10 +37,10 @@
           "apellido": "García"
         },
         "accesorios": {
-          "accesorio": {
+          "accesorio":[ {
             "nombre": "Radio",
             "tipo": "CD"
-          }
+          }]
         }
       },
       {
