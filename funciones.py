@@ -58,3 +58,16 @@ def propiedad(nombre,apellido,fichero):
             lista.append(coche)
     
     return lista
+
+def antiguedad(fichero):
+    dicc={}
+    x=fichero.get("coches").get("coche")
+
+    for i in x:
+        matricula=i.get("matricula")
+        año=int(i.get("anio"))
+        dicc[matricula]=año
+        
+
+    return dicc
+    

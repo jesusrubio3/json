@@ -1,4 +1,4 @@
-from funciones import lecturajson,menu,listar,marca,accesorios,propiedad
+from funciones import lecturajson,menu,listar,marca,accesorios,propiedad,antiguedad
 
 contenido=lecturajson("coches.json")
 
@@ -30,4 +30,11 @@ while menu2!=6:
 
         for i in propiedad(nombre,apellido,contenido):
             print(i)
+    
+    if menu2==5:
+        print("Esta es la lista de coches de matriculados de más antiguos a los mas modernos: ")
+        h=antiguedad(contenido)
+        h=dict(sorted(h.items(), key=lambda item:item[1]))
+        for i,j in h.items():
+            print("%s matriculado en %d"%(i,j))
     menu2=menu()
