@@ -20,3 +20,16 @@ def menu():
 def listar(fichero):
     duenos=fichero.get("coches").get("coche")
     return duenos
+
+def marca(fichero):
+    marcas=fichero.get("coches").get("coche")
+    lista=[]
+    numero={}
+    for i in marcas:
+        
+        lista.append(i.get("marca"))
+    for j in lista:
+       
+        numero[j]=lista.count(j)
+        
+    return numero
