@@ -33,3 +33,17 @@ def marca(fichero):
         numero[j]=lista.count(j)
         
     return numero
+
+def accesorios(coche,fichero):
+    lista=[]
+    accesiorio=fichero.get("coches").get("coche")
+    for i in accesiorio:
+        if i.get("matricula")==coche:
+            numero=i.get("accesorios").get("accesorio")
+    
+    for j in numero:
+        j=j.get("nombre")
+        lista.append(j)
+
+        
+    return lista

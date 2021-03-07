@@ -1,4 +1,4 @@
-from funciones import lecturajson,menu,listar,marca
+from funciones import lecturajson,menu,listar,marca,accesorios
 
 contenido=lecturajson("coches.json")
 
@@ -16,4 +16,10 @@ while menu2!=6:
         for marca,numero in marca(contenido).items():
             print("%s tiene %d"%(marca,numero))
 
+    if menu2==3:
+        matricula=input("introduce la matrícula del vehículo: ")
+       
+        print("estos son sus accesorios: ")
+        for i in accesorios(matricula,contenido):
+            print(i)
     menu2=menu()
